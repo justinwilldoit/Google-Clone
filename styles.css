@@ -1,0 +1,66 @@
+body {
+    font-size: 15px;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: gray;
+    box-shadow: darkgray;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+.navright {
+    float: right;
+}
+
+.navleft {
+    float: left;
+}
+
+.container {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+#image {
+    width: auto;
+    padding-top: 200px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+}
+
+.search {
+    width: 40%;
+    height: 100%;
+}
+.button {
+    display: inline-block;
+    margin: 15px;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
